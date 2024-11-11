@@ -22,7 +22,7 @@ const Contact = () => {
   });
 
   // Optionally, you can also show an alert or message to the user
-  alert("WE WILL GET BACK TO YOU SOON");
+  // alert("WE WILL GET BACK TO YOU SOON");
 
   };
 
