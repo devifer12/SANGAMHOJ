@@ -12,6 +12,18 @@ const Contact = () => {
     e.preventDefault();
     // Handle form submission here
     console.log(formData);
+
+     // Reset the form
+  setFormData({
+    name: '',
+    email: '',
+    phone: '',
+    message: ''
+  });
+
+  // Optionally, you can also show an alert or message to the user
+  alert("WE WILL GET BACK TO YOU SOON");
+
   };
 
   return (
