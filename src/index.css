@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-montserrat;
+  }
+}
+
+.hero-gradient {
+  background: linear-gradient(rgba(52, 75, 62, 0.3), rgba(52, 75, 62, 0.3));
+}
+
+.collection-card {
+  transition: transform 0.3s ease;
+}
+
+.collection-card:hover {
+  transform: scale(1.02);
+}
+
+input, textarea {
+  @apply border border-gray-300 rounded-md p-2;
+}
